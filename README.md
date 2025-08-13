@@ -15,7 +15,7 @@ update @ 2025/08/13
 
 - CAN4 : RX:P0_10 (interrupt , no RX rule , accept all ID) , TX:P0_9 (polling)
 
-	- use #define ENABLE_MULTI_CAN_CH , to multi CH setting( ex : CAN1 , CAN4 )
+	- use #define ENABLE_MULTI_CAN_CH , to enable multi CH setting( ex : CAN1 , CAN4 )
 
 	- use #define CAN_RX_POLLING , #define CAN_RX_INTERRUPT , to change RX receive method
 
@@ -66,13 +66,13 @@ volatile CAN_BUS_PARAMETER_T can_bus_parameter_ch4 =
 ```
 
 
+can_fd_receive_buffer_decode
 ```c
-under signed char can_fd_receive_buffer_decode(CAN_REG_TYP * can)
-
     unsigned short q_number = can_bus_parameter_ch4.CAN_RX_FIFO_BUFFER_NUM << 5;
+```
 
-under void can_fd_receive_fifo_buffer_decode(CAN_REG_TYP * can, CAN_RX_FIFO_BUFER_NUMBER_e rfi_number)
-   
+can_fd_receive_fifo_buffer_decode
+```c   
     unsigned short q_number = rfi_number << 5;
 ```
 
@@ -85,7 +85,7 @@ under void can_fd_receive_fifo_buffer_decode(CAN_REG_TYP * can, CAN_RX_FIFO_BUFE
 
 - __KEYPOINT2__ : Sixteen receive rules can be set per page. 
 
-	- each RX channel RULE , must align to 16 or need to copy one by one
+	- each RX channel RULE , align to 16 or each rule need to copy one by one
 
 ```c
 #define CAN_RX_RULE_CURRENT_AMOUNT                  (16)
