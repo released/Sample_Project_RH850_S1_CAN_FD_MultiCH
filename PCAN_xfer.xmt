@@ -1,0 +1,58 @@
+; D:\SourceCode\_Avery_PCAN\PCAN_xfer.xmt
+;   CAN messages saved by PCAN-View v5.1.1.908
+;
+; Columns descriptions:
+; ~~~~~~~~~~~~~~~~~~~~~
+; +Message ID
+; |            +Cycle time in ms (0=manual)
+; |            |  +Data length
+; |            |  |  +Frame type
+; |            |  |  |  +Message data
+; |            |  |  |  |
+000h           5  8  D 11h 22h 33h 44h 55h 66h 77h 88h  Paused
+043h           5  8  D 01h 02h 03h 04h 05h 06h 07h 08h  Paused
+043h           5  8  F 01h 02h 03h 04h 05h 06h 07h 08h  Paused
+043h           5  16 F 01h 02h 03h 04h 05h 06h 07h 08h 09h 10h 11h 12h 13h 14h 15h 16h  Paused
+00000043h      5  8  D 01h 02h 03h 04h 05h 06h 07h 08h  Paused
+044h           5  8  F 5Ah 5Ah 08h 12h 34h 56h A5h A5h  Paused
+00000055h     10  16 F 5Ah 5Ah 16h 12h 34h 56h 78h 90h ABh CDh EFh 00h 00h 00h A5h A5h  Paused
+066h           5  24 F 5Ah 5Ah 24h 12h 34h 56h 78h 90h ABh CDh EFh 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h A5h A5h  Paused
+077h           5  48 B 5Ah 5Ah 48h 12h 34h 56h 78h 90h ABh CDh EFh AAh BBh CCh DDh EEh FFh 00h 11h 22h 33h 44h 55h 66h 77h 88h 99h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h A5h A5h  Paused
+07Fh           5  8  D 5Ah 5Ah 5Ah 5Ah 5Ah 5Ah 77h 5Ah  Paused
+00000088h      5  64 F 5Ah 5Ah 64h 12h 34h 56h 78h 90h ABh CDh EFh 00h 11h 22h 33h 44h 55h 66h 77h 88h 99h 00h 11h 22h 33h 44h 55h 66h 77h 88h 99h 00h 11h 22h 33h 44h 55h 66h 77h 88h 99h 00h 11h 22h 33h 44h 55h 66h 77h 88h 99h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h 00h A5h A5h  Paused
+00000090h      5  8  D 1Ah 1Ah 1Ah 2Ah 2Ah 2Ah 3Ah 3Ah  Paused
+100h           5  8  D 11h 22h 33h 44h 55h 66h 77h 88h  Paused
+00000100h      5  8  D 11h 22h 33h 44h 55h 66h 77h 5Ah  Paused
+00000100h      5  16 F 11h 22h 33h 44h 55h 66h 77h 88h AAh BBh CCh DDh EEh FFh 5Ah 5Ah  Paused
+00000100h      5  64 F 10h 11h 11h 11h 11h 11h 11h 11h 10h 12h 22h 22h 22h 22h 22h 22h 10h 13h 33h 33h 33h 33h 33h 33h 10h 14h 44h 44h 44h 44h 44h 44h 10h 15h 55h 55h 55h 55h 55h 55h 10h 16h 66h 66h 66h 66h 66h 66h 10h 17h 77h 77h 77h 77h 77h 77h 10h 18h 88h 88h 88h 88h 88h 88h  Paused
+101h           5  8  D 11h 11h 11h 11h 55h 66h 77h 5Bh  Paused
+101h           5  8  D 11h 22h 33h 44h 55h 66h 77h 5Bh  Paused
+101h           5  16 F 11h 22h 33h 44h 55h 66h 77h 88h 99h AAh BBh CCh DDh EEh FFh 00h  Paused
+00000101h      5  16 F 11h 22h 33h 44h 55h 66h 77h 88h 99h AAh AAh AAh AAh AAh 55h 55h  Paused
+102h           5  4  R  Paused
+00000102h      5  4  R  Paused
+00000102h      5  8  D 11h 11h 22h 22h 33h 33h 44h 44h  Paused
+00000102h      5  8  R  Paused
+103h           5  8  D 1Ah 2Ah 3Ah 4Ah 5Ah 6Ah 6Ah 8Ah  Paused
+103h           5  8  R  Paused
+00000103h      5  8  B 10h 20h 30h 40h 50h 60h 70h 80h  Paused
+00000103h      5  8  B 10h 20h 30h 40h 50h 60h 70h 80h  Paused
+00000103h      5  64 B 10h 20h 30h 40h 50h 60h 70h 80h 90h A0h B0h C0h D0h E0h F0h 00h 11h 21h 31h 41h 51h 61h 71h 81h 91h AAh BBh CCh DDh EEh FFh 00h 12h 22h 32h 42h 52h 62h 72h 82h 92h AAh BBh CCh DDh EEh FFh 00h 13h 23h 33h 43h 53h 63h 73h 83h 93h AAh BBh CCh DDh EEh FFh 00h  Paused
+104h           5  8  D 1Bh 2Bh 3Bh 4Bh 5Bh 6Bh 6Bh 8Bh  Paused
+104h           5  8  R  Paused
+104h           5  16 B 10h 20h 30h 40h 50h 60h 70h 80h AAh AAh AAh AAh AAh AAh AAh AAh  Paused
+00000104h      5  64 B 10h 20h 30h 40h 50h 60h 70h 80h 90h A0h B0h C0h D0h E0h F0h 00h 11h 21h 31h 41h 51h 61h 71h 81h 91h AAh BBh CCh DDh EEh FFh 00h 12h 22h 32h 42h 52h 62h 72h 82h 92h AAh BBh CCh DDh EEh FFh 00h 13h 23h 33h 43h 53h 63h 73h 83h 93h AAh BBh CCh DDh EEh FFh 00h  Paused
+105h           5  8  D 11h 11h 11h 11h 11h 11h 11h 11h  Paused
+105h           5  8  F 22h 22h 22h 22h 22h 22h 22h 22h  Paused
+105h           5  8  D 5Ah 5Ah 11h 22h 33h 44h A5h A5h  Paused
+105h           5  16 F 33h 33h 33h 33h 33h 33h 33h 33h 33h 33h 33h 33h 33h 33h 33h 33h  Paused
+00000105h      5  8  D 01h 02h 03h 04h 05h 06h 07h 08h  Paused
+00000105h      5  64 B 10h 20h 30h 40h 50h 60h 70h 80h 90h A0h B0h C0h D0h E0h F0h 00h 11h 21h 31h 41h 51h 61h 71h 81h 91h AAh BBh CCh DDh EEh FFh 00h 12h 22h 32h 42h 52h 62h 72h 82h 92h AAh BBh CCh DDh EEh FFh 00h 13h 23h 33h 43h 53h 63h 73h 83h 93h AAh BBh CCh DDh EEh FFh 00h  Paused
+109h           5  8  D 11h 11h 11h 11h 11h 11h 11h 11h  Paused
+00000109h      5  8  D 01h 02h 03h 04h 05h 06h 07h 08h  Paused
+111h           5  8  D 01h 02h 00h 00h 00h 00h 00h 00h  Paused
+123h           5  8  D 11h 22h 33h 44h 55h 66h 77h 5Ah  Paused ; normal CAN
+200h           5  8  D 11h 22h 33h 44h 55h 66h 77h 88h  Paused
+00000200h      5  8  D 11h 22h 33h 44h 55h 66h 77h 5Ah  Paused
+00000200h      5  16 F 11h 22h 33h 44h 55h 66h 77h 88h AAh BBh CCh DDh EEh FFh 5Ah 5Ah  Paused
+00000200h      5  64 F 10h 11h 11h 11h 11h 11h 11h 11h 10h 12h 22h 22h 22h 22h 22h 22h 10h 13h 33h 33h 33h 33h 33h 33h 10h 14h 44h 44h 44h 44h 44h 44h 10h 15h 55h 55h 55h 55h 55h 55h 10h 16h 66h 66h 66h 66h 66h 66h 10h 17h 77h 77h 77h 77h 77h 77h 10h 18h 88h 88h 88h 88h 88h 88h  Paused

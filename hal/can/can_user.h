@@ -386,7 +386,7 @@ typedef struct
 
 /*
     Sixteen receive rules can be set per page.
-    each RX RULE , must align to 16 or must copy one by one
+    each RX channel RULE , must align to 16 or need to copy one by one
 */
 #define CAN_RX_RULE_CURRENT_AMOUNT                  (16)
 #define CAN2_RX_RULE_CURRENT_AMOUNT                 (16)

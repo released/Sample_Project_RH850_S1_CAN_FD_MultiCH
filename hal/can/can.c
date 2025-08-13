@@ -1773,17 +1773,8 @@ static void can_start(CAN_REG_TYP * can,CAN_CHANNEL_SEL_e channel)
     // CAN_REG_SET(cst[channel].CxCTR.UINT32,CAN_REG_BIT12,CAN_REG_LENGTH_1); //BORIE
 
     //Transition to channel communication mode
-    // TODO : 
-    #if 1
     CAN_REG_CLR(cst[channel].CxCTR.UINT32,CAN_REG_BIT0,CAN_REG_LENGTH_2); //CHMDC
     while(CAN_REG_READ(cst[channel].CxSTS.UINT32,CAN_REG_BIT0,CAN_REG_LENGTH_1)!=0);  //CRSTSTS
-    #else
-    CAN_REG_CLR(cst[can_bus_parameter_ch1.CAN_CH].CxCTR.UINT32,CAN_REG_BIT0,CAN_REG_LENGTH_2); //CHMDC
-    while(CAN_REG_READ(cst[can_bus_parameter_ch1.CAN_CH].CxSTS.UINT32,CAN_REG_BIT0,CAN_REG_LENGTH_1)!=0);  //CRSTSTS
-    
-    CAN_REG_CLR(cst[can_bus_parameter_ch4.CAN_CH].CxCTR.UINT32,CAN_REG_BIT0,CAN_REG_LENGTH_2); //CHMDC
-    while(CAN_REG_READ(cst[can_bus_parameter_ch4.CAN_CH].CxSTS.UINT32,CAN_REG_BIT0,CAN_REG_LENGTH_1)!=0);  //CRSTSTS
-    #endif
 }
 
 
@@ -2094,7 +2085,7 @@ void R_CLKC_SetRscanClockDomain(uint32_t RscanModuleClockDomain, uint32_t RscanC
     need to replace when code generage EACH TIMES
 */
 // TODO : 
-// @ r_cg_invector.c
+// @ r_cg_intvector.c
 
 // [SEARCH1]
 // /* CAN receive FIFO interrupt; */
