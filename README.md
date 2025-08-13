@@ -85,7 +85,7 @@ can_fd_receive_fifo_buffer_decode
 
 - __KEYPOINT2__ : Sixteen receive rules can be set per page. 
 
-	- each RX channel RULE , align to 16 or each rule need to copy one by one
+	- each RX channel RULE , align to 16 or each rule must to copy one by one manually
 
 ```c
 #define CAN_RX_RULE_CURRENT_AMOUNT                  (16)
